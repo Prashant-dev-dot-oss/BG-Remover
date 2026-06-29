@@ -19,11 +19,10 @@ const Header = () => {
                     <p className='text-white text-sm'>Upload your image</p>
                 </label>
             </div>
-        </div>
+        </div> 
         {/*-------Right Side-------*/}
-        <div>
-
-
+        <div className='w-full max-w-md'>
+            <img src ={assets.header_img} alt="" />
         </div>
     </div>
   )
